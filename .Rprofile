@@ -9,14 +9,14 @@
 
 if (interactive() && requireNamespace("rsthemes", quietly = TRUE)) {
   # Set preferred themes if not handled elsewhere..
-  rsthemes::set_theme_light("Textmate (Default)")  # light theme
-  rsthemes::set_theme_dark("Horizon Dark {rsthemes}") # dark theme
+  rsthemes::set_theme_light("Textmate (default)")  # light theme
+  rsthemes::set_theme_dark("Oceanic Plus {rsthemes}") # dark theme
   rsthemes::set_theme_favorite(c(
-    "Night Owl {rsthemes}",
+    "GitHub {rsthemes}",
     "Flat White {rsthemes}",
-    "Oceanic Plus {rsthemes}",
+    "Night Owl {rsthemes}",
     "One Dark {rsthemes}",
-    "GitHub {rsthemes}"
+    "Horizon Dark {rsthemes}"
   ))
 
   ## Automatically choose the correct theme based on time of day
